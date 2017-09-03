@@ -1,0 +1,48 @@
+/*
+Rule - Selector, Descriptor
+*/
+#MY_TODO
+{
+    color : black;
+    text-align:center ;
+    background-color: aqua;
+}
+.button1
+{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 1px 1px;
+    cursor: pointer;
+}
+.breathVertical {
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+
+.breathHorizontal {
+    margin-left:5px;
+    margin-right:5px;
+}
+div.todoStatusACTIVE {
+
+    color : blue;
+}
+
+
+div.todoStatusCOMPLETE{
+    color : green;
+    ..text-decoration : line-through;
+}
+
+div.todoStatusDELETED {
+    color : red;
+    text-decoration : line-through;
+
+}
